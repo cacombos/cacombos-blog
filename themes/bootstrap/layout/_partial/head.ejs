@@ -20,14 +20,17 @@
     <meta name="twitter:label1" content="Written by">
     <meta name="twitter:data1" content="<%- page.author %>">
     <meta name="twitter:title" content="<%= page.title %> | <%= config.title %> Blog">
+    <meta property="twitter:url" content="<%= url %>">
     <meta name="twitter:description" content="<%= page.excerpt %>" />
 <% } else { %>
     <title><%= config.title %></title>
     <meta property="og:title" content="<%= config.title %> Blog" />
+    <meta property="og:description" content="<%= config.description %>" />
     <meta property="og:site_name" content="<%= config.title %> Blog" />
     <meta property="og:type" content="website">
     
     <meta name="twitter:title" content="<%= config.title %> Blog">
+    <meta name="twitter:description" content="<%= config.description %>" />
     <meta name="twitter:site" content="@cacombos">
 <% } %>
 
