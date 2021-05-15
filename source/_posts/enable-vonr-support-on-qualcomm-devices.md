@@ -3,7 +3,7 @@ layout: post
 title: Enable VoNR support on Qualcomm devices
 date: 2021-03-28
 author: olkitu
-category: 5G
+category: 'Qualcomm modem customization'
 tags:
 - 5G
 - Qualcomm
