@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+
+# Git and Docker files
+.git
+.github
+.gitlab-ci.yml
+docker-compose.yml
+
+# Ignore Bootstrap directories
+/themes/bootstrap/source/bootstrap/css/
+/themes/bootstrap/source/bootstrap/js/

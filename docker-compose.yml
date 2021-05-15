@@ -1,0 +1,14 @@
+version: '2.4'
+services:
+  cacombos-blog:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+    - 4000:4000
+    volumes:
+    - .:/usr/src/app
+    - cacombos-blog_node_modules:/usr/src/app/node_modules
+
+volumes:
+  cacombos-blog_node_modules:

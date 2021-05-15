@@ -1,0 +1,23 @@
+
+<html>
+
+<!-- Head tag -->
+<%- partial('_partial/head') %>
+    <body>
+        <!-- Navbar -->
+        <%- partial('_partial/navbar') %>
+
+        <div class="body-container">
+            <div class="container">
+                <%- partial('_partial/header') %>
+
+                <%- body %>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <%- partial('_partial/footer') %>
+        <!-- After Footer-->
+        <%- partial('_partial/after-footer') %>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+
+# Ignore Bootstrap directories
+/themes/bootstrap/source/bootstrap/css/
+/themes/bootstrap/source/bootstrap/js/

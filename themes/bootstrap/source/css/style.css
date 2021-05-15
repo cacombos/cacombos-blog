@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+}
+
+.ngb-toasts {
+    top: 60px;
+}
+
+.body-container {
+    margin-bottom: 100px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+
+svg {
+    width: 1em;
+    height: 1em;
+}
+
+
+/*
+Dark Theme
+*/
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222;
+        color: #FAFAFA;
+    }
+    .loader {
+        background:#222;
+    }
+    a, .btn-link {
+        color: #60a0e6;
+    }
+    a:hover, .btn-link:hover {
+        color: #386494;
+    }
+    .jumbotron {
+        background-color: #303030;
+        color: #FAFAFA;
+    }
+    .table {
+        background-color: #303030;
+        color: #FAFAFA;
+    }
+    caption {
+        color:#dad5d5;
+    }
+    .card {
+        background-color: #303030;
+    }
+    footer {
+        background-color: #303030 !important;
+    }
+    .text-muted {
+        color: #dad5d5!important
+    }
+    .badge-info {
+        background-color: #3498db;
+        color: #FAFAFA;
+    }
+    .matomo-iframe-light {
+        display: none;
+    }
+    .matomo-iframe-dark {
+        display: block;
+    }
+    .tooltip-button {
+        color:#FAFAFA;
+    }
+}

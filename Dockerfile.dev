@@ -1,0 +1,12 @@
+FROM node:14-alpine
+
+WORKDIR /usr/src/app
+
+RUN npm install hexo-cli -g
+
+EXPOSE 4000
+
+COPY . .
+
+ENTRYPOINT [ "sh", "/usr/src/app/docker-entrypoint.dev.sh" ]
+CMD [ "hexo", "server" ]
