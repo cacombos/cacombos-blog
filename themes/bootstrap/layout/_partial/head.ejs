@@ -4,10 +4,11 @@
 <meta name="theme-color" content="#343a40">
 <% if(page.title) { %><title><%= page.title %> | <%= config.title %></title><% } else { %><title><%= config.title %></title><% } %>
 <%- open_graph([]) %>
-<meta name="twitter:site" content="@cacombos">
-<meta name="twitter:label1" content="Written by">
-<meta name="twitter:data1" content="<%- page.author %>"
+<meta name="twitter:site" content="@cacombos" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="<%- page.author %>" />
 
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS Feed of blog.cacombos.com" href="/atom.xml">
 
