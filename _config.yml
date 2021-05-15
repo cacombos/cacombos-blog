@@ -103,3 +103,9 @@ theme: bootstrap
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 10
