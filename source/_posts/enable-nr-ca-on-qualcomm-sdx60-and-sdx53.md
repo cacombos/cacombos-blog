@@ -3,7 +3,7 @@ layout: post
 title: Enable NR-CA on Qualcomm SDX60 and SDX53
 date: 2021-04-13
 author: olkitu
-category: 5G
+category: 'Qualcomm modem customization'
 tags:
 - 5G
 - Qualcomm
