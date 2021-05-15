@@ -1,6 +1,6 @@
 # cacombos-blog
 
-CA Combos Blog https://blog.cacombos.com
+CA Combos Blog https://blog.cacombos.com. Based [Hexo Blog Framework](https://hexo.io/)
 
 ## Build
 
