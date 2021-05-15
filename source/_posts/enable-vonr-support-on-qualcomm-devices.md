@@ -3,6 +3,10 @@ layout: post
 title: Enable VoNR support on Qualcomm devices
 date: 2021-03-28
 author: olkitu
+category: 5G
+tags:
+- 5G
+- Qualcomm
 ---
 
 This instruction helps you to enable VoNR (Voice over 5G New Radio – Phone calls over 5G-networks) support on your Qualcomm device. By default this is disabled To use VoNR your network must support 5G SA (Standalone).
