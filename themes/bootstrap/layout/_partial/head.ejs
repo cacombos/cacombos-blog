@@ -5,7 +5,9 @@
 
 <% if(page.title) { %>
     <title><%= page.title %> | <%= config.title %></title>
+    <meta name="description" content="<%= page.excerpt %>" />
     <meta property="og:title" content="<%= page.title %> | <%= config.title %> Blog" />
+    <meta property="og:description" content="<%= page.excerpt %>" />
     <meta property="og:site_name" content="<%= config.title %> Blog" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="<%= url %>" />
@@ -17,7 +19,8 @@
     <meta name="twitter:site" content="@cacombos">
     <meta name="twitter:label1" content="Written by">
     <meta name="twitter:data1" content="<%- page.author %>">
-    <meta name="twitter:title" content="<%= config.title %> Blog">
+    <meta name="twitter:title" content="<%= page.title %> | <%= config.title %> Blog">
+    <meta name="twitter:description" content="<%= page.excerpt %>" />
 <% } else { %>
     <title><%= config.title %></title>
     <meta property="og:title" content="<%= config.title %> Blog" />
@@ -27,7 +30,9 @@
     <meta name="twitter:title" content="<%= config.title %> Blog">
     <meta name="twitter:site" content="@cacombos">
 <% } %>
-    
+
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed of blog.cacombos.com" href="/atom.xml">
 
     <%- css('bootstrap/css/bootstrap.min.css') %>
 
