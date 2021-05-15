@@ -1,43 +1,15 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#343a40">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#343a40">
+<% if(page.title) { %><title><%= page.title %> | <%= config.title %></title><% } else { %><title><%= config.title %></title><% } %>
+<%- open_graph([]) %>
+<meta name="twitter:site" content="@cacombos">
+<meta name="twitter:label1" content="Written by">
+<meta name="twitter:data1" content="<%- page.author %>"
 
-<% if(page.title) { %>
-    <title><%= page.title %> | <%= config.title %></title>
-    <meta name="description" content="<%= page.excerpt %>" />
-    <meta property="og:title" content="<%= page.title %> | <%= config.title %> Blog" />
-    <meta property="og:description" content="<%= page.excerpt %>" />
-    <meta property="og:site_name" content="<%= config.title %> Blog" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="<%= url %>" />
-    <meta property="article:published_time" content="<%= page.date %>" />
-    <meta property="article:modified_time" content="<%= page.updated %>" />
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS Feed of blog.cacombos.com" href="/atom.xml">
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:creator" content="@cacombos" />
-    <meta name="twitter:site" content="@cacombos">
-    <meta name="twitter:label1" content="Written by">
-    <meta name="twitter:data1" content="<%- page.author %>">
-    <meta name="twitter:title" content="<%= page.title %> | <%= config.title %> Blog">
-    <meta property="twitter:url" content="<%= url %>">
-    <meta name="twitter:description" content="<%= page.excerpt %>" />
-<% } else { %>
-    <title><%= config.title %></title>
-    <meta property="og:title" content="<%= config.title %> Blog" />
-    <meta property="og:description" content="<%= config.description %>" />
-    <meta property="og:site_name" content="<%= config.title %> Blog" />
-    <meta property="og:type" content="website">
-    
-    <meta name="twitter:title" content="<%= config.title %> Blog">
-    <meta name="twitter:description" content="<%= config.description %>" />
-    <meta name="twitter:site" content="@cacombos">
-<% } %>
-
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
-    <link rel="alternate" type="application/rss+xml" title="RSS Feed of blog.cacombos.com" href="/atom.xml">
-
-    <%- css('bootstrap/css/bootstrap.min.css') %>
-
-    <%- css('/css/style.css') %>
+<%- css('bootstrap/css/bootstrap.min.css') %><%- css('/css/style.css') %>
 </head>
