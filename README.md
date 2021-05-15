@@ -2,6 +2,20 @@
 
 CA Combos Blog https://blog.cacombos.com
 
+## Build
+
+Build in Docker
+
+```
+docker build -t cacombos/cacombos-blog .
+```
+
+Run
+
+```
+docker run --rm -p 80:80 --name cacombos-blog cacombos/cacombos-blog
+```
+
 ## Development
 
 Start develop environment
