@@ -1,12 +1,14 @@
 ---
 layout: post
 title: Enable NR-CA on Qualcomm SDX60 and SDX53
+date: 2021-04-13
+author: olkitu
+category: 5G
 tags:
 - 5G
 - Qualcomm
-category: 5G
-date: 2021-04-13
-author: olkitu
+- SDX60
+- SDX53
 ---
 
 By default almost every Qualcomm SDX60 and SDX53 has NR-CA (NR Carrier Aggregation - aggregate two or more 5G NR bands) disabled by default in modem firmware.
