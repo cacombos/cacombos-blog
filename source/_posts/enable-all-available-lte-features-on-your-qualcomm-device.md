@@ -17,7 +17,7 @@ This instruction helps you to enable all LTE-features on your Qualcomm devices l
 
 <span style="color:red">Before continuing, I remind you these changes could end your device warranty.</span> Be careful because this can make your device unusable.
 
-## Requirements
+### Requirements
 
 * Make sure your device have X55 Modem Baseband version HI2.0 or newer. In Android you can check this in Settings -> About -> Status and find Baseband version.
 * Qualcomm diag driver installed and access to QPST/EFS.
@@ -25,7 +25,7 @@ This instruction helps you to enable all LTE-features on your Qualcomm devices l
 
 This instruction is tested with OnePlus 8 (IN2013) and 8 Pro (IN2023). To access QPST with OnePlus 8, follow instructions [here](https://mt-tech.fi/en/modify-oneplus-7-pro-5g-8-and-8-pro-nr-lte-a-band-combos/).
 
-## Steps
+### Steps
 
 Open EFS Explorer and navigate to following folder: `/nv/item_files/modem/lte/rrc/efs`
 
