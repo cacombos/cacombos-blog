@@ -8,6 +8,8 @@ category: 'general'
 
 Since 2019 we have tracked over 400 different devices modem capabilities on our site. This includes Carrier Aggregation and Dual Connectivity combinations, MIMO and modulation supports. 
 
+<!-- more -->
+
 This new blog will allow us make more content:
 
 * Sharing updates about cacombos progress. New features etc...
