@@ -13,12 +13,12 @@ This instruction helps you to enable VoNR (Voice over 5G New Radio – Phone cal
 
 <!-- more -->
 
-## Requirements
+### Requirements
 
 * Qualcomm diag driver installed and access to QPST/EFS
 * May require rooted device
 
-## Let's start
+### Let's start
 
 [Download ZIP package](https://mt-tech.fi/wp-content/uploads/2021/03/nr5g_full_voice_support.zip) and extract to your computer below. It include nvitems to enable VoNR.
 

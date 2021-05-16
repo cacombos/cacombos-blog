@@ -17,7 +17,7 @@ NR-CA works with NR-NSA and NR-SA networks depends your device support. You can 
 
 <!-- more -->
 
-## Requirements
+### Requirements
 
 * QPST and access to EFS. This may require root.
 * If device have Carrier Policy, make sure it have multiple NR bands enabled NSA/SA. 
@@ -25,7 +25,7 @@ NR-CA works with NR-NSA and NR-SA networks depends your device support. You can 
 
 This instruction is tested with OnePlus 9 Pro (Global and US) and Xiaomi Mi 11 Lite 5G.
 
-## Let's start
+### Let's start
 
 Download [ZIP package](https://mt-tech.fi/wp-content/uploads/2021/04/cap_control_nrca.zip) and extract it to your computer below. It includes nvitems to enable NR-CA.
 
