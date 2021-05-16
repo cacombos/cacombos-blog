@@ -6,11 +6,11 @@ author: olkitu
 category: 'general'
 ---
 
-Since 2019 we have tracked over 400 different devices modem capabilities on our site. This includes Carrier Aggregation and Dual Connectivity combinations, MIMO and modulation supports. 
+Since 2019 we have tracked over 400 different devices modem capabilities on our site. This includes Carrier Aggregation and Dual Connectivity combinations, MIMO and modulation support. 
 
 <!-- more -->
 
-This new blog will allow us make more content:
+This new blog will allow us to make more content:
 
 * Sharing updates about cacombos progress. New features etc...
 * Publish articles about new phone modems
@@ -18,9 +18,9 @@ This new blog will allow us make more content:
 * More instructions to collect modem log data
 * ...
 
-To follow our blog, you can just add [RSS Feed](/atom.xml) to your RSS Feed program. Also follow us on [Twitter](https://twitter.com/cacombos).
+To follow our blog, you can just add the [RSS Feed](/atom.xml) to your RSS Feed program and follow us on [Twitter](https://twitter.com/cacombos) too.
 
-If you have any idea's for new article, please submit [issue via Github](https://github.com/cacombos/cacombos-blog/issues)
+If you have any ideas for new article, please submit [issue via Github](https://github.com/cacombos/cacombos-blog/issues)
 
 ### Frontend is OpenSource
 
