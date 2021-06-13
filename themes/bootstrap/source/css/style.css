@@ -10,6 +10,12 @@ body {
     margin-bottom: 100px;
 }
 
+.highlight {
+    background-color: #f8f9fa;
+    padding: 1.0rem;
+    margin-bottom:0;
+  }
+
 footer {
     position: fixed;
     bottom: 0;
@@ -93,9 +99,5 @@ Dark Theme
     }
     .tooltip-button {
         color:#FAFAFA;
-    }
-
-    pre {
-        color: #FAFAFA;
     }
 }
