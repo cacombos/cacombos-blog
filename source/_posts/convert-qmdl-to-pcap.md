@@ -78,3 +78,9 @@ Or
 python3 ./scat.py -t qc -d log.qmdl -F log.pcap
 ```
 </figure>
+
+Parameters
+
+* `-t` Type. Use `qc`
+* `-d` Dump file
+* `-F` PCAP file
