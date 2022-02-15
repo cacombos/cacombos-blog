@@ -68,21 +68,21 @@ Dark Theme
         color: #386494;
     }
     .jumbotron {
-        background-color: #303030;
+        background-color: #212529;
         color: #FAFAFA;
     }
     .table {
-        background-color: #303030;
+        background-color: #212529;
         color: #FAFAFA;
     }
     caption {
         color:#dad5d5;
     }
     .card {
-        background-color: #303030;
+        background-color: #212529;
     }
     footer {
-        background-color: #303030 !important;
+        background-color: #212529 !important;
     }
     .text-muted {
         color: #dad5d5!important
