@@ -13,7 +13,7 @@
     "version": "5.4.0"
   },
   "dependencies": {
-    "bootstrap": "^5.0.1",
+    "bootstrap": "^5.2.1",
     "hexo": "^5.0.0",
     "hexo-fontawesome": "^2.2.1",
     "hexo-generator-archive": "^1.0.0",
