@@ -8,7 +8,7 @@ RUN yarn \
     && yarn build
 
 
-FROM nginx:stable-alpine
+FROM nginx:1.24-alpine3.17
 
 WORKDIR /usr/share/nginx/html
 
